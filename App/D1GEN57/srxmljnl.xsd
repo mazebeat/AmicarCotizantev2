@@ -1,0 +1,299 @@
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by Stephen Cornes (Group 1 Software Europe Ltd) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="JE">
+    <xs:annotation>
+      <xs:documentation>Journal entry</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="name" type="xs:string" use="required">
+            <xs:annotation>
+              <xs:documentation>eg. Account number</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="type" use="required">
+            <xs:annotation>
+              <xs:documentation>str, num, int, dat, tim or dec</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="str"/>
+                <xs:enumeration value="num"/>
+                <xs:enumeration value="int"/>
+                <xs:enumeration value="dat"/>
+                <xs:enumeration value="tim"/>
+                <xs:enumeration value="dec"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProductionJournal">
+    <xs:annotation>
+      <xs:documentation>Root</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CompositionDate" type="xs:date"/>
+        <xs:element name="OutputDevices">
+          <xs:annotation>
+            <xs:documentation>The output devices used</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OutputDevice" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation>Output device description</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="filename" type="xs:string" use="required">
+                        <xs:annotation>
+                          <xs:documentation>File containing output</xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>
+                      <xs:attribute name="idx" use="required">
+                        <xs:annotation>
+                          <xs:documentation>Device index, 1 to n. Used by DDO and DPO elements to identify the device.</xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>
+                      <xs:attribute name="type" use="required">
+                        <xs:annotation>
+                          <xs:documentation>AFPDS, eHTML, HTML, IJPDS, LineData, Metacode, MIBF, Neutral Output, PCL, PDF, PostScript, Ppml Postscript, VIPP, VPS, RTF</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:enumeration value="AFPDS"/>
+                            <xs:enumeration value="eHTML"/>
+                            <xs:enumeration value="HTML"/>
+                            <xs:enumeration value="IJPDS"/>
+                            <xs:enumeration value="LineData"/>
+                            <xs:enumeration value="Metacode"/>
+                            <xs:enumeration value="MIBF"/>
+                            <xs:enumeration value="Neutral Output"/>
+                            <xs:enumeration value="PCL"/>
+                            <xs:enumeration value="PDF"/>
+                            <xs:enumeration value="PostScript"/>
+                            <xs:enumeration value="Ppml Postscript"/>
+                            <xs:enumeration value="RTF"/>
+                            <xs:enumeration value="VIPP"/>
+                            <xs:enumeration value="VPS"/>
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:attribute>
+                      <xs:attribute name="totalPages" type="xs:int" use="required">
+                        <xs:annotation>
+                          <xs:documentation>Total physical page count</xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>
+                      <xs:attribute name="totalPagesRecto" type="xs:int" use="required">
+                        <xs:annotation>
+                          <xs:documentation>Front-side page count</xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StartOfJob" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Any start of job journal entries</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="JE" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Publications">
+          <xs:annotation>
+            <xs:documentation>Publications. Currently only 1 in EngageOne.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Pub" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation>Publication info</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="PBO" maxOccurs="unbounded"/>
+                    <xs:element name="PBC">
+                      <xs:annotation>
+                        <xs:documentation>Publication Content</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:choice maxOccurs="unbounded">
+                          <xs:element ref="JE"/>
+                          <xs:element ref="Doc"/>
+                        </xs:choice>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="name" use="required">
+                    <xs:annotation>
+                      <xs:documentation>Publication logic map label</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="instanceId" use="required">
+                    <xs:annotation>
+                      <xs:documentation>Document instance ID</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EndOfJob" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Any end of job journal entries</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="JE" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:string" use="required">
+        <xs:annotation>
+          <xs:documentation>1.0</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="runType" use="required">
+        <xs:annotation>
+          <xs:documentation>One of "EOBatch", "EONeutral" or "Batch"</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="EOBatch"/>
+            <xs:enumeration value="EONeutral"/>
+            <xs:enumeration value="Batch"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Doc">
+    <xs:annotation>
+      <xs:documentation>Document</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DO" maxOccurs="unbounded"/>
+        <xs:element name="PG" maxOccurs="unbounded">
+          <xs:annotation>
+            <xs:documentation>Page</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="PGO" maxOccurs="unbounded"/>
+              <xs:element name="PGC" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Page Content</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="JE" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="name" use="required">
+        <xs:annotation>
+          <xs:documentation>Document logic map label</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PBO">
+    <xs:annotation>
+      <xs:documentation>Publication Offset</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="filename" type="xs:string" use="required">
+            <xs:annotation>
+              <xs:documentation>Output file containing publication</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="idx" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation>Device Index, 1 to n</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="totalPages" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation>Total physical page count</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="totalPagesRecto" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation>Front-side page count</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DO">
+    <xs:annotation>
+      <xs:documentation>Document Offset</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="idx" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation>Device Index, 1 to n</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PGO">
+    <xs:annotation>
+      <xs:documentation>Page Offset</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:long">
+          <xs:attribute name="idx" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation>Device Index, 1 to n</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="jpn" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation>Job page number</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="ppn" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation>Publication page number</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="dpn" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation>Document page number</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

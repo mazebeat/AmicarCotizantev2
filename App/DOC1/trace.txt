@@ -1,0 +1,6 @@
+Generate Trace information.
+  Trace Level DEFAULT
+  Tracing specific publication 10
+HIP File Publication Name:  Created: 20:18 Thursday, March 27, 2014 on:  Workcenter version 5.6.1334 (OS WinXP 5.1.2600 (Service Pack 3)) 
+  Publication terminated abnormally in publication 0
+  Error Message: "GEN0021A No se puede abrir el archivo de entrada 'E:\Amicar\App\DOC1\DATA\'."

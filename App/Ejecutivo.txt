@@ -1,0 +1,167 @@
+LOCAL|EJECUTIVO|CORREO
+1 AG ALAMEDA|Claudia Alegria|claudia.alegria@amicar.cl|
+1 ANFRUNS RANCAGUA|Carolina Dominguez|carolina.dominguez@amicar.cl|
+10 AG MALL PLAZA TOBALABA|Manuel Guzman|manuel.guzman@amicar.cl|
+10 CARRERA|Claudia Alguerno|claudia.alguerno@amicar.cl|
+101 BRUNO FRITSCH GRAN AVENIDA|Alexis Klein|alexis.klein@amicar.cl|
+102 AG LA DEHESA MINI|Felipe Guerrero|felipe.guerrero@amicar.cl|
+103 H. MOTORES S.A. LA CALERA|Alejandra Urquejo|alejandra.urquejo@amicar.cl|
+103 PUIG LTDA.|Patricio Ramirez|patricio.ramirez@amicar.cl|
+104 FORTALEZA MALL DEL TREBOL|Carla Torres|carla.torres@amicar.cl|
+105 FORTALEZA ALAMEDA|Claudia Alegria|claudia.alegria@amicar.cl|
+106 FORTALEZA BILBAO 1|Teresa Cortes|teresa.cortes@amicar.cl|
+108 FORTALEZA LAS CONDES 2 (EX ALTRA)|Carla Dinamarca|carla.dinamarca@amicar.cl|
+108 NUEVOS S.A.|David Schneider|david.schneider@amicar.cl|
+109 FORTALEZA CERRILLOS|Natalia Marin|natalia.marin@amicar.cl|
+11 AG MALL PLAZA VESPUCIO|Daniela Flores|daniela.flores@amicar.cl|
+11 CHAMY HNOS|Karina Carreño|karina.carreno@amicar.cl|
+110 FORTALEZA MALL PLAZA NORTE|Taina Sanchez|taina.sanchez@amicar.cl|
+111 FORTALEZA PUERTO MONTT|Carlos Marquez|carlos.marquez@amicar.cl|
+111 MOVICENTER (GEE-CHA-GWM)|Victor Pantoja|victor.pantoja@amicar.cl|
+112 PLAZA VESPUCIO (GWM-GEE-JAC-CHA)|Rodrigo Laporta|rodrigo.laporta@amicar.cl|
+113 FORTALEZA MALL PLAZA VESPUCIO|Paola Alvarado|paola.alvarado@amicar.cl|
+114 FORTALEZA OSORNO|Karin Soto|karin.soto@amicar.cl|
+115 FORTALEZA VALDIVIA|Ximena DIaz|ximena.diaz@amicar.cl|
+116 FORTALEZA LOS ANGELES|Paola Valdebenito|paola.valdebenito@amicar.cl|
+119 FORTALEZA TEMUCO SAN MARTIN|Ignacio Bondis|ignacio.bondis@amicar.cl|
+12 AG MOVICENTER|Roxana Bustos|roxana.bustos@amicar.cl|
+12 COMERCIAL VALENTINI - LA SERENA|Liz Torreblanca|liz.torreblanca@amicar.cl|
+120 FORTALEZA CITYTIME MALL IQUIQUE|Pamela Campos|pamela.campos@amicar.cl|
+121 FORTALEZA PLAZA LA SERENA|Elizabeth Andrade|elizabeth.andrade@amicar.cl|
+121 RECASUR COYHAIQUE|Silvia Molina|silvia.molina@amicar.cl|
+126 FORTALEZA VICUÑA MACKENNA|Gustavo Bravo|gustavo.bravo@amicar.cl|
+128 FORTALEZA MALL PLAZA ALAMEDA|Daniela Rosales|daniela.rosales@amicar.cl|
+128 PRO MOTORS|Monica Blamey|mithzy.morales@amicar.cl|
+129 MEGACENTER (MAZDA)|Javiera Hurtado|javiera.hurtado@amicar.cl|
+13 AG PORTUGAL|Catalina Torkar|catalina.torkar@amicar.cl|
+13 COVALSA OVALLE|Cristina Sierra|cristina.sierra@amicar.cl|
+130 MEGACENTER (RNT-SMG)|Javiera Hurtado|javiera.hurtado@amicar.cl|
+131 AG VITACURA MINI|Felipe Guerrero|felipe.guerrero@amicar.cl|
+131 SUZUVAL BELLOTO|Pablo Iriarte|pablo.iriarte@amicar.cl|
+132 FORTALEZA VIÑA DEL MAR|Patricia Navarro|patricia.navarro@amicar.cl|
+132 PLAZA NORTE (GWM-MZD-RNT-SMG)|Maria Espejo|marco.lobos@amicar.cl|
+134 SERGIO ESCOBAR CNT|Jonathan Concha|jonathan.concha@amicar.cl|
+135 AUTOMOTORA BILBAO CHINOS IRARRAZABAL|Marco Lobos|marco.lobos@amicar.cl|
+136 FORTALEZA CITYTIME ARICA|Pamela Campos|pamela.campos@amicar.cl|
+138 MOVICENTER (JAC)|Victor Pantoja|victor.pantoja@amicar.cl|
+138 TUPPER (FORTALEZA)|Esteban Rojas|esteban.rojas@amicar.cl|
+139 AUTOMOTORA BILBAO MAZDA|Marco Lobos|marco.lobos@amicar.cl|
+139 CARMEISTER VIÑA DEL MAR|Cristian Astorga|cristian.astorga@amicar.cl|
+14 AG VITACURA|Alejandra Dodds|alejandra.dodds@amicar.cl|
+14 EXEQUIEL BERRIOS PUERTO MONTT|Juan Lopez|juan.burgos@amicar.cl|
+140 H MOTORES S.A PLAZA OESTE|Pamela Zuñiga|pamela.zuniga@amicar.cl|
+141 DECAR HOSCHTETTER|Dayse Castro|dayse.castro@amicar.cl|
+141 H MOTORES BELLOTO|Carmen Cotroneo|carmen.cotroneo@amicar.cl|
+143 CURIFOR PLACILLA|Patricio Urzua|patricio.urzua@amicar.cl|
+144 MINI STORE PARQUE ARAUCO|Felipe Guerrero|felipe.guerrero@amicar.cl|
+145 AG SUCURSAL LAS CONDES 11.000|Rodrigo Venegas|rodrigo.venegas@amicar.cl|
+145 MEGACENTER (GWM - JAC - GEE - CHA)|Javiera Hurtado|javiera.hurtado@amicar.cl|
+148 DERCO IRARRAZAVAL|Jorge Herrera|jorge.herrera@amicar.cl|
+148 FORTALEZA VITACURA|Carla Dinamarca|carla.dinamarca@amicar.cl|
+149 FORTALEZA CANTAGALLO|Carla Dinamarca|carla.dinamarca@amicar.cl|
+149 YUSIC JUMBO|Myriam Lopez|myriam.lopez@amicar.cl|
+150  DERCO AUTOSHOPPING|Elizabeth Mendoza|elizabeth.mendoza@amicar.cl|
+150 MALL ZONA FRANCA HYUNDAI|Joselyn Gallardo|joselyn.gallardo@amicar.cl|
+151 DERCO LAS CONDES|Catherine Pietrasanta|catherine.pietrasant...@amicar.cl|
+151 FORTALEZA MALL PLAZA MIRADOR BIO BIO|Johanna Coa|johanna.coa@amicar.cl|
+153 MEDINA & BALLART|Rocio Bascur|roberto.munoz@amicar.cl|
+16 AG IQUIQUE|Betty Epulef|betty.epulef@amicar.cl|
+16 GUSTAVO SAAVEDRA|Jorge Herrera|jorge.herrera@amicar.cl|
+160 AG AUTOSHOPPING|Maria Guerra|mangelica.guerra@amicar.cl|
+161 FORTALEZA AUTOSHOPPING|Maria Guerra|mangelica.guerra@amicar.cl|
+164 CARMEISTER CONCEPCION|Leslie Delgado|leslie.delgado@amicar.cl|
+17 AG CALAMA|Valeria Silva|valeria.silva@amicar.cl|
+17 MEGACENTER (SUZUKI)|Daniela Rosales|daniela.rosales@amicar.cl|
+18 AG ANTOFAGASTA|Garnica San|Gabriela.Aliquintui@amicar.cl|
+19 AG AUTO PLAZA ANTOFAGASTA|Francisco Ite|francisco.ite@amicar.cl|
+19 MOVICENTER (MAZDA)|Monica Salas|monica.salas@amicar.cl|
+2 AG BILBAO 2|Teresa Cortes|teresa.cortes@amicar.cl|
+2 ANFRUNS - SANTIAGO|Jorge Herrera|jorge.herrera@amicar.cl|
+20 AG CONCEPCION|Leslie Delgado|leslie.delgado@amicar.cl|
+20 MOVICENTER (SZK)|Claudia Oliva|claudia.oliva@amicar.cl|
+21 AG AUTOPLAZA MALL DEL TREBOL|Carla Torres|carla.torres@amicar.cl|
+22 AG LOS ANGELES|Paola Valdebenito|paola.valdebenito@amicar.cl|
+23 PLAZA NORTE (SUZUKI)|Maria Espejo|marco.lobos@amicar.cl|
+24 AG VALDIVIA|Ximena DIaz|ximena.diaz@amicar.cl|
+24 PLAZA OESTE (MZD-SMG-RNT)|Pedro Pradenas|pedro.pradenas@amicar.cl|
+25 AG OSORNO|Karin Soto|karin.soto@amicar.cl|
+26 AG PUERTO MONTT|Gloria Fierro|gloria.fierro@amicar.cl|
+26 PLAZA TOBALABA (SMG-SZK)|Ivor Bastias|ivor.bastias@amicar.cl|
+27 CARMEISTER LAS CONDES|Carla Dinamarca|carla.dinamarca@amicar.cl|
+27 PLAZA VESPUCIO (SZK)|Cristian Cardenas|cristian.cardenas@amicar.cl|
+28 CURIFOR VICUNA MACKENNA|Patricio Urzua|patricio.urzua@amicar.cl|
+28 R Y R PINTO - SAN FELIPE|Carlos Hormazabal|carlos.hormazabal@amicar.cl|
+29 LIRA LARRAIN PROVIDENCIA|Jorge Herrera|jorge.herrera@amicar.cl|
+29 SANTA MARIA|Lorena Agurto|lorena.agurto@amicar.cl|
+3 ARAUCO - TALCA|Esteban Mendez|esteban.mendez@amicar.cl|
+30 SERGIO ESCOBAR MALL|Camila Cordero|camila.cordero@amicar.cl|
+32 CARMEISTER ANTOFAGASTA|Garnica San|Gabriela.Aliquintui@amicar.cl|
+34 COVALSA LA SERENA|Monica Mundaca|mithzy.morales@amicar.cl|
+34 SUZUVAL VALPARAISO|Hellen Miranda|hellen.miranda@amicar.cl|
+35 COVALSA OVALLE|Cristina Sierra|cristina.sierra@amicar.cl|
+35 SUZUVAL VIÑA DEL MAR|Jessica Vega|jessica.vega@amicar.cl|
+36 VIRTUAL|Claudia Alguerno|claudia.alguerno@amicar.cl|
+39 QUILICURA|Maria Espejo|marco.lobos@amicar.cl|
+4 ASPILLAGA Y HORNAUER - VIÑA DEL MAR|Vanessa Quezada|vanessa.quezada@amicar.cl|
+40 AUTOMOTORA FRANCIA|Jorge Herrera|jorge.herrera@amicar.cl|
+41 P. HIDALGO PAJARITOS|Osvaldo Silva|osvaldo.silva@amicar.cl|
+42 ANSA|Jorge Herrera|jorge.herrera@amicar.cl|
+43 AUTOS YUSIC CALAMA|Gustavo Henriquez|gustavo.henriquez@amicar.cl|
+44 SUZUVAL LA CALERA|Mauricio Jeldres|mauricio.jeldres@amicar.cl|
+45 CURIFOR BUIN|Hector Yañez|hector.yanez@amicar.cl|
+45 SUZUVAL SAN ANTONIO|Gladys Abarca|gladys.abarca@amicar.cl|
+46 AUTOSTOP|Betty Epulef|betty.epulef@amicar.cl|
+47 JESUS PONS - CURICO|Jessica Gajardo|jessica.gajardo@amicar.cl|
+48 SERGIO ESCOBAR PAICAVI|Daniela Aguirre|daniela.aguirre@amicar.cl|
+49 H. MOTORES S.A. VALPARAISO|Claudia Osorio|claudia.osorio@amicar.cl|
+5 AG CASA MATRIZ|Macarena Muñoz|macarena.munoz@amicar.cl|
+50 CURIFOR CURICO|Carlos Toledo|carlos.toledo@amicar.cl|
+50 SERGIO ESCOBAR LOS ANGELES|Rodrigo Monsalve|rodrigo.monsalve@amicar.cl|
+51 CURIFOR CHILLAN|Vanessa Alarcon|vanessa.alarcon@amicar.cl|
+51 SERGIO ESCOBAR CHILLAN|Hugo Gatica|hugo.gatica@amicar.cl|
+52 BRUNO FRITSCH CONCEPCION|Renato Cuevas|renato.cuevas@amicar.cl|
+52 EXEQUIEL BERRIOS CASTRO|Juan Lopez|juan.burgos@amicar.cl|
+53 EXEQUIEL BERRIOS VALDIVIA|Luis Huaiquimilla|luis.huaiquimilla@amicar.cl|
+55 CHILOE MOTORES|Gloria Fierro|gloria.fierro@amicar.cl|
+55 RECASUR|Joselyn Gallardo|joselyn.gallardo@amicar.cl|
+56 BILBAO AUTOS (MICHEL MARTABIT)|Rodrigo Carabantes|rodrigo.carabantes@amicar.cl|
+56 TOVARIAS|Joselyn Gallardo|joselyn.gallardo@amicar.cl|
+58 AG PLAZA LA SERENA|Jessica Maluenda|jessica.maluenda@amicar.cl|
+59 CARMEISTER MALL PLAZA OESTE|Nicole Rios|nicole.rios@amicar.cl|
+6 AUTOCENTRO NICOLAS|Christian Henriquez|christian.henriquez@amicar.cl|
+60 CARMEISTER MOVICENTER|Carolina Villarroel|carolina.villarroel@amicar.cl|
+61 H. MOTORES S.A. LONQUEN|Gonzalo Fernandez|gonzalo.fernandez@amicar.cl|
+61 PLAZA OESTE (SZK)|Andrea Vergara|andrea.vergara@amicar.cl|
+62 CARMEISTER  BILBAO 1|Teresa Cortes|teresa.cortes@amicar.cl|
+63 PLAZA VESPUCIO (MAZDA)|Rodrigo Cordova|rodrigo.cordova@amicar.cl|
+66 DECAR S.A|Daniel Roa|daniel.roa@amicar.cl|
+7 AG LA DEHESA|Felipe Guerrero|felipe.guerrero@amicar.cl|
+7 AUTOMOTORA BILBAO|Angelo Hernandez|angelo.hernandez@amicar.cl|
+70 AG MALL PLAZA ALAMEDA|Daniela Rosales|daniela.rosales@amicar.cl|
+71 CIRCULO HYUNDAI TALCA|Paula Inostroza|paula.inostroza@amicar.cl|
+74 AG VICUÑA MACKENNA|Gustavo Bravo|gustavo.bravo@amicar.cl|
+75 PLAZA OESTE (GWM-CHA-JAC-GEE)|Gonzalo Alvarez|gonzalo.alvarez@amicar.cl|
+79 CARMONA|Monica Mundaca|mithzy.morales@amicar.cl|
+8 AG MAIPU|Fernando Leiva|fernando.leiva@amicar.cl|
+82 CAVAL TALCA|Paula Inostroza|paula.inostroza@amicar.cl|
+83 MOVICENTER (RNT - SMG)|Manuel Marino|manuel.marino@amicar.cl|
+84 AG VIÑA DEL MAR|Cristian Astorga|cristian.astorga@amicar.cl|
+86 DISTRIBUIDORA ROSSELOT LTDA.|Carla Bascuñan|carla.bascunan@amicar.cl|
+87 GIDI LINARES|Paula Inostroza|paula.inostroza@amicar.cl|
+88 SIGLO XXI|Eduardo Bravo|eduardo.bravo@amicar.cl|
+89 CITYTIME MALL IQUIQUE|Pamela Campos|pamela.campos@amicar.cl|
+9 AG MALL PLAZA NORTE|Edilma Acevedo|edilma.acevedo@amicar.cl|
+9 AUTOS YUSIC ANTOFAGASTA|Luis Paz|luis.paz@amicar.cl|
+90 FORTALEZA CALAMA|Valeria Silva|valeria.silva@amicar.cl|
+90 PLAZA VESPUCIO (RNT-SMG)|Rodrigo Cordova|rodrigo.cordova@amicar.cl|
+91 FORTALEZA ANTOFAGASTA|Ariel Aguila|ariel.aguila@amicar.cl|
+91 JESUS PONS LINARES|Jessica Gajardo|jessica.gajardo@amicar.cl|
+92 AUTOS YUSIC COSTANERA|Myriam Lopez|myriam.lopez@amicar.cl|
+92 CIRCULO MANUEL MONTT|Esteban Rojas|esteban.rojas@amicar.cl|
+93 AG CERRILLOS|Natalia Marin|natalia.marin@amicar.cl|
+94 BRUNO FRITSCH|Garnica San|Gabriela.Aliquintui@amicar.cl|
+95 CIRCULO IRARRAZABAL|Esteban Rojas|esteban.rojas@amicar.cl|
+96 AG MALL PLAZA CALAMA|Claudia Elgueta|claudia.elgueta@amicar.cl|
+97 CITYTIME ARICA|Pamela Campos|pamela.campos@amicar.cl|
+98 FORTALEZA PLAZA CALAMA|Claudia Elgueta|claudia.elgueta@amicar.cl|
+99 FORTALEZA PLAZA ANTOFAGASTA|Francisco Ite|francisco.ite@amicar.cl|

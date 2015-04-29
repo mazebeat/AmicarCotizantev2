@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="CargaDatosAmicar2"
+  	transaction-type="RESOURCE_LOCAL">
+  	<provider>
+  		org.eclipse.persistence.jpa.PersistenceProvider
+  	</provider>
+  	<class>cl.intelidata.amicar.bd.Proceso</class>
+  	<class>cl.intelidata.amicar.bd.Correoserrorformato</class>
+  	<class>cl.intelidata.amicar.bd.Vendedores</class>
+  	<class>cl.intelidata.amicar.bd.Locales</class>
+  	<class>cl.intelidata.amicar.bd.Log</class>
+  	<class>cl.intelidata.amicar.bd.Clientesdiario</class>
+  	<class>cl.intelidata.amicar.bd.Clientes</class>
+  	<class>cl.intelidata.amicar.bd.Clientealgoritmo</class>
+  	<class>cl.intelidata.amicar.bd.Clientessemanal</class>
+  	<class>cl.intelidata.amicar.bd.Ejecutivos</class>
+  	<class>cl.intelidata.amicar.bd.Body</class>
+  	<class>cl.intelidata.amicar.bd.AbstractProceso</class>
+  	<class>cl.intelidata.amicar.bd.AbstractCorreoserrorformato</class>
+  	<class>cl.intelidata.amicar.bd.AbstractVendedores</class>
+  	<class>cl.intelidata.amicar.bd.AbstractLocales</class>
+  	<class>cl.intelidata.amicar.bd.AbstractLog</class>
+  	<class>cl.intelidata.amicar.bd.AbstractClientesdiario</class>
+  	<class>cl.intelidata.amicar.bd.AbstractClientes</class>
+  	<class>cl.intelidata.amicar.bd.AbstractClientealgoritmo</class>
+  	<class>cl.intelidata.amicar.bd.AbstractClientessemanal</class>
+  	<class>cl.intelidata.amicar.bd.AbstractEjecutivos</class>
+  	<class>cl.intelidata.amicar.bd.AbstractBody</class>
+  	<properties>
+  		<property name="javax.persistence.jdbc.driver"
+  			value="com.mysql.jdbc.Driver" />
+  		<property name="javax.persistence.jdbc.url"
+  			value="jdbc:mysql://192.168.1.99:3306/amicarcotizante2" />
+  		<property name="javax.persistence.jdbc.user" value="test" />
+  		<property name="javax.persistence.jdbc.password" value="test" />
+  		<property name="eclipselink.jdbc.native-sql" value="true"/>
+  	</properties>
+  </persistence-unit>
+</persistence>

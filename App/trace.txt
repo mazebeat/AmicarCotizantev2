@@ -1,0 +1,77 @@
+Generate Trace information.
+  Trace Level DEFAULT
+  Tracing specific publication 10
+HIP File Publication Name:  Created: 20:18 Thursday, March 27, 2014 on:  Workcenter version 5.6.1334 (OS WinXP 5.1.2600 (Service Pack 3)) 
+  Logic Map and data context trace at point of failure follows.
+  Publication number 10: START
+  Current data context, note this includes fields for all publications.
+  Field: "001|" Inicio\001|\001| Key Definition Field = "1"
+  Field: "001|" Inicio\001|\MAIL = "nelsonaspect@yahoo.ca"
+  Field: "001|" Inicio\001|\RUT = "117954358"
+  Field: "001|" Inicio\001|\LINK = "http://192.168.1.99:8080/Clicks/Clicks?cliente=9912f5c35aeec2a2efd0eb9e4c6a4a35&cotizacion=9912f5c35aeec2a2efd0eb9e4c6a4a35"
+  Field: "001|" Inicio\001|\FECHA-PROCESO = "1"
+  Field: "001|" Inicio\001|\LECTURA = "http://192.168.1.99:8080/Lecturas/Lecturas?cliente=9912f5c35aeec2a2efd0eb9e4c6a4a35&cotizacion=9912f5c35aeec2a2efd0eb9e4c6a4a35"
+  Field: "001|" Inicio\001|\CAMPANA = "1"
+  Field: "001|" Inicio\001|\NOMBRE = "NELSON  VENEGAS ."
+  Logic Map trace for selected publication follows
+  >--+- New logic map fragment. Type:'Publication' Label:'No Label'
+  |  +- 'Document : '
+  |  >--+- New logic map fragment. Type:'Document' Label:'No Label'
+  |  |  >--+- New logic map fragment. Type:'APT' Label:'No Label'
+  |  |  |  +- 'APT Component : Start Of Document: '
+  |  |  |  >--+- New logic map fragment. Type:'APT Component' Label:'Start Of Document: '
+  |  |  |  |
+  |  |  |
+  |  |  +- 'Section : '
+  |  |  >--+- New logic map fragment. Type:'Section' Label:'No Label'
+  |  |  |  >--+- New logic map fragment. Type:'APT' Label:'No Label'
+  |  |  |  |  +- 'APT Component : Page Initialisation: '
+  |  |  |  |  >--+- New logic map fragment. Type:'APT Component' Label:'Page Initialisation: '
+  |  |  |  |  |
+  |  |  |  |
+  |  |  |  >--+- New logic map fragment. Type:'APT' Label:'No Label'
+  |  |  |  |  +- 'APT Component : Background: '
+  |  |  |  |  >--+- New logic map fragment. Type:'APT Component' Label:'Background: '
+  |  |  |  |  |
+  |  |  |  |
+  |  |  |  >--+- New logic map fragment. Type:'APT' Label:'No Label'
+  |  |  |  |  +- 'APT Component : Start Of Page: '
+  |  |  |  |  >--+- New logic map fragment. Type:'APT Component' Label:'Start Of Page: '
+  |  |  |  |  |
+  |  |  |  |
+  |  |  |  +- 'AddNop: Instancia para inicializar variable
+'
+  |  |  |  +- 'Use field ""'
+  |  |  |  +- 'Use constant ""'
+  |  |  |  +- 'SubjectCliente : Use action "SubjectCliente"'
+  |  |  |  +- 'AddNop: Asignacion valor a variable
+'
+  |  |  |  +- 'Use field ""'
+  |  |  |  +- 'Use field ""'
+  |  |  |  +- 'Use constant ""'
+  |  |  |  +- 'Use field ""'
+  |  |  |  +- 'Use constant ""'
+  |  |  |  +- 'Use text Lookup "AsuntoAmicar"'
+  |  |  |  +- 'Build up concatenation "SubjectCliente"'
+  |  |  |  +- 'SubjectCliente : Use action "SubjectCliente"'
+  |  |  |  +- 'Paragraph: '
+  |  |  |  +- 'Paragraph: '
+  |  |  |
+  |  |  >--+- New logic map fragment. Type:'APT' Label:'No Label'
+  |  |  |  +- 'APT Component : End Of Page: '
+  |  |  |  >--+- New logic map fragment. Type:'APT Component' Label:'End Of Page: '
+  |  |  |  |
+  |  |  |
+  |  |
+  |  +- 'Start DIJ'
+  |  +- 'Use field ""'
+  |  +- 'Use field ""'
+  |  +- 'Use constant ""'
+  |  +- 'Use constant ""'
+  |  +- 'Use field ""'
+  |  +- 'Use field ""'
+  |  +- 'Retainer name: SubjectCliente : Gbh : Casting unknown to string : SubjectCliente'
+  |  +- 'End DIJ'
+  |
+  Publication number 10: COMPLETE
+Execution Completed
